@@ -1,0 +1,116 @@
+.salam,
+		.quote,
+		.mempelai,
+		.acara,
+		.alamat,
+		.galeri {
+			height: 100vh; /* Setiap section mengisi penuh layar */
+		}
+
+		.navbar {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			max-width: 425px;
+			z-index: 1030; /* Pastikan navbar berada di atas konten */
+		}
+
+		body {
+			max-width: 425px; /* Atur lebar maksimum sesuai kebutuhan */
+			margin: 0 auto; /* Ini untuk membuat body terpusat */
+			overflow: hidden; /*Menyembunyikan scroll bar */
+            font-family: 'Caveat', cursive; /* Menggunakan font Caveat */
+		}
+
+		.salam {
+			background-image: url('../img/BG6.png'); /* Ganti dengan URL gambar Anda */
+			background-size: cover;
+			background-position: center;
+		}
+		.quote {
+			background-image: url('../img/BG1.png'); /* Ganti dengan URL gambar Anda */
+			background-size: cover;
+			background-position: center;
+		}
+		.mempelai {
+			background-image: url('../img/BG3.png'); /* Ganti dengan URL gambar Anda */
+			background-size: cover;
+			background-position: center;
+		}
+		.acara {
+			background-image: url('../img/BG2.png'); /* Ganti dengan URL gambar Anda */
+			background-size: cover;
+			background-position: center;
+		}
+
+		.alamat {
+			background-image: url('../img/BG4.png'); /* Ganti dengan URL gambar Anda */
+			background-size: cover;
+			background-position: center;
+		}
+
+		.galeri {
+			background-image: url('../img/BG5.png'); /* Ganti dengan URL gambar Anda */
+			background-size: cover;
+			background-position: center;
+		}
+
+		.img-AB {
+			width: 100%;
+			position: absolute;
+			left: 0px;
+			top: -120px;
+			z-index: 2;
+		}
+
+		.alamat .img-AB {
+			width: 100%;
+			position: absolute;
+			left: 0px;
+			top: -80px;
+			z-index: 2;
+		}
+
+		.active {
+			background-color: #007bff; /* Warna latar belakang saat aktif */
+			color: white !important; /* Warna teks saat aktif */
+		}
+
+		.salam p,
+		.salam h3 {
+			margin: 0;
+			padding: 0;
+		}
+
+		.circle {
+			background-color: #7a7a7a;
+			width: 80px;
+			height: 80px;
+			border-radius: 10%;
+
+			margin: auto;
+			margin-bottom: 10px;
+		}
+		.circle h1 {
+			font-size: 30px;
+			margin-top: 7px;
+			background-color: #7a7a7a;
+			color: white;
+		}
+		.circle p {
+			background-color: #7a7a7a;
+			text-align: center;
+			border-radius: 5px;
+			color: white;
+			margin: 0;
+		}
+		iframe {
+			width: 80%;
+			height: 270px;
+			position: relative;
+			top: -45px;
+			left: -4px;
+			border-radius: 10%;
+		}
