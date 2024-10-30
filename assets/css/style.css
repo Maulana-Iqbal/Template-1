@@ -29,11 +29,32 @@
 			background-size: cover;
 			background-position: center;
 		}
+
+		.salam-content-main{
+			width: 50%;
+		}
+
 		.quote {
 			background-image: url('../img/BG1.png'); /* Ganti dengan URL gambar Anda */
 			background-size: cover;
 			background-position: center;
+			color: aliceblue;
+			height: 100%;
 		}
+		.quote-content {
+			width: 100%;
+			position: relative;
+			top: -100px;
+			
+		}
+		.quote-content h3{
+			width: 100%;
+		}
+
+		.quote-content-main{
+			width: 50%;
+		}
+
 		.mempelai {
 			background-image: url('../img/BG3.png'); /* Ganti dengan URL gambar Anda */
 			background-size: cover;
@@ -57,13 +78,13 @@
 			background-position: center;
 		}
 
-		.img-AB {
+		/* .img-AB {
 			width: 100%;
 			position: absolute;
 			left: 0px;
 			top: -120px;
 			z-index: 2;
-		}
+		} */
 
 		.alamat .img-AB {
 			width: 100%;
@@ -78,11 +99,7 @@
 			color: white !important; /* Warna teks saat aktif */
 		}
 
-		.salam p,
-		.salam h3 {
-			margin: 0;
-			padding: 0;
-		}
+
 
 		.circle {
 			background-color: #7a7a7a;
