@@ -1,133 +1,117 @@
-.salam,
-		.quote,
-		.mempelai,
-		.acara,
-		.alamat,
-		.galeri {
-			height: 100vh; /* Setiap section mengisi penuh layar */
-		}
+body {
+	max-width: 425px; /* Atur lebar maksimum sesuai kebutuhan */
+	margin: 0 auto;
+	background-image: url('../img/main-bg.jpg');
+}
 
-		.navbar {
-			position: fixed;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			margin: 0 auto;
-			max-width: 425px;
-			z-index: 1030; /* Pastikan navbar berada di atas konten */
-		}
+/* salam */
 
-		body {
-			max-width: 425px; /* Atur lebar maksimum sesuai kebutuhan */
-			margin: 0 auto; /* Ini untuk membuat body terpusat */
-			overflow: hidden; /*Menyembunyikan scroll bar */
-            font-family: 'Caveat', cursive; /* Menggunakan font Caveat */
-		}
+.salam {
+	background-image: url('../img/BG6.png'); /* Ganti dengan URL gambar Anda */
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
 
-		.salam {
-			background-image: url('../img/BG6.png'); /* Ganti dengan URL gambar Anda */
-			background-size: cover;
-			background-position: center;
-		}
+.salam-content {
+	height: 100%;
+}
+.salam-body {
+	width: 50%;
+	margin: 0 auto;
+}
 
-		.salam-content-main{
-			width: 50%;
-		}
+/* quote */
+.quote {
+	background-image: url('../img/BG5.png'); /* Ganti dengan URL gambar Anda */
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: azure;
+}
 
-		.quote {
-			background-image: url('../img/BG1.png'); /* Ganti dengan URL gambar Anda */
-			background-size: cover;
-			background-position: center;
-			color: aliceblue;
-			height: 100%;
-		}
-		.quote-content {
-			width: 100%;
-			position: relative;
-			top: -100px;
-			
-		}
-		.quote-content h3{
-			width: 100%;
-		}
+.quote-content {
+	height: 100%;
+}
+.quote-body {
+	width: 50%;
+	margin: 0 auto;
+}
 
-		.quote-content-main{
-			width: 50%;
-		}
+/* mempelai */
+.mempelai {
+	background-image: url('../img/BG1.png'); /* Ganti dengan URL gambar Anda */
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: azure;
+}
 
-		.mempelai {
-			background-image: url('../img/BG3.png'); /* Ganti dengan URL gambar Anda */
-			background-size: cover;
-			background-position: center;
-		}
-		.acara {
-			background-image: url('../img/BG2.png'); /* Ganti dengan URL gambar Anda */
-			background-size: cover;
-			background-position: center;
-		}
+.mempelai-content {
+	height: 100%;
+}
+.mempelai-body {
+	width: 75%;
+	margin: 0 auto;
+}
 
-		.alamat {
-			background-image: url('../img/BG4.png'); /* Ganti dengan URL gambar Anda */
-			background-size: cover;
-			background-position: center;
-		}
+/* acara */
+.acara {
+	background-image: url('../img/BG2.png'); /* Ganti dengan URL gambar Anda */
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: #302d2d;
+}
 
-		.galeri {
-			background-image: url('../img/BG5.png'); /* Ganti dengan URL gambar Anda */
-			background-size: cover;
-			background-position: center;
-		}
+.acara-content {
+	height: 100%;
+}
+.acara-body {
+	width: 50%;
+	margin: 0 auto;
+}
 
-		/* .img-AB {
-			width: 100%;
-			position: absolute;
-			left: 0px;
-			top: -120px;
-			z-index: 2;
-		} */
+/* alamat */
+.alamat {
+	background-image: url('../img/BG4.png'); /* Ganti dengan URL gambar Anda */
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: #302d2d;
+}
 
-		.alamat .img-AB {
-			width: 100%;
-			position: absolute;
-			left: 0px;
-			top: -80px;
-			z-index: 2;
-		}
+.alamat-content {
+	height: 100%;
+}
+.alamat-body {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+	top: -80px;
+}
 
-		.active {
-			background-color: #007bff; /* Warna latar belakang saat aktif */
-			color: white !important; /* Warna teks saat aktif */
-		}
+.alamat-btn {
+	margin-top: 20px;
+}
 
+/* galeri */
 
+.galeri {
+	background-image: url('../img/BG3.png'); /* Ganti dengan URL gambar Anda */
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
 
-		.circle {
-			background-color: #7a7a7a;
-			width: 80px;
-			height: 80px;
-			border-radius: 10%;
+.galeri-content {
+	height: 100%;
+}
+.galeri-body {
+	width: 80%;
+	margin: 0 auto;
+}
 
-			margin: auto;
-			margin-bottom: 10px;
-		}
-		.circle h1 {
-			font-size: 30px;
-			margin-top: 7px;
-			background-color: #7a7a7a;
-			color: white;
-		}
-		.circle p {
-			background-color: #7a7a7a;
-			text-align: center;
-			border-radius: 5px;
-			color: white;
-			margin: 0;
-		}
-		iframe {
-			width: 80%;
-			height: 270px;
-			position: relative;
-			top: -45px;
-			left: -4px;
-			border-radius: 10%;
-		}
+.galeri-body img {
+	height: 100%;
+}
